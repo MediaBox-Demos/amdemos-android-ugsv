@@ -1,0 +1,113 @@
+<resources>
+    <string name="alivc_recorder_setting_min_record_duration">Minimum</string>
+    <string name="alivc_recorder_setting_max_record_duration">Maximum</string>
+    <string name="alivc_recorder_setting_bit_rate">Bitrate(kbps)</string>
+    <string name="alivc_recorder_setting_frame_rate">Frame Rate</string>
+    <string name="alivc_recorder_setting_quality">Video Quality</string>
+    <string name="alivc_recorder_setting_gop">Keyframe Interval</string>
+    <string name="alivc_recorder_setting_duet_source_mode">In-tune audio types</string>
+    <string name="alivc_recorder_setting_resolution">Resolution</string>
+    <string name="alivc_recorder_setting_ratio">Aspect Ratio</string>
+    <string name="alivc_recorder_setting_min_record_duration_hint">default value is 2s</string>
+    <string name="alivc_recorder_setting_max_record_duration_hint">default value is 15 seconds</string>
+    <string name="alivc_recorder_setting_gop_hint">1-300s is recommended. The default value is 30s</string>
+    <string name="alivc_recorder_setting_start_record">Start recording</string>
+    <string name="alivc_recorder_setting_tittle">Recording options</string>
+    <string name="alivc_recorder_setting_resolution_360p">360p</string>
+    <string name="alivc_recorder_setting_resolution_480p">480p</string>
+    <string name="alivc_recorder_setting_resolution_540p">540p</string>
+    <string name="alivc_recorder_setting_resolution_720p">720p</string>
+    <string name="alivc_recorder_setting_ratio_1_1">1:1</string>
+    <string name="alivc_recorder_setting_ratio_9_16">9:16</string>
+    <string name="alivc_recorder_setting_ratio_3_4">3:4</string>
+    <string name="alivc_recorder_setting_quality_low">Poor</string>
+    <string name="alivc_recorder_setting_quality_meidan">Moderate</string>
+    <string name="alivc_recorder_setting_quality_high">Good</string>
+    <string name="alivc_recorder_setting_quality_super">Great</string>
+    <string name="alivc_recorder_setting_codec">Encoding Mode</string>
+    <string name="alivc_recorder_setting_encoder_hardware">Hardware Encoder</string>
+    <string name="alivc_recorder_setting_encoder_openh264">Software Encoder</string>
+    <string name="alivc_recorder_setting_encoder_ffmpeg">Software Encoder</string>
+    <string name="alivc_recorder_setting_tip_duration_error">The minimum time cannot be greater than the maximum time, please reset!!!!!</string>
+    <string name="alivc_recorder_setting_width">Width</string>
+    <string name="alivc_recorder_setting_height">Height</string>
+    <string name="alivc_recorder_setting_start">Start</string>
+    <string name="alivc_recorder_setting_close_skin_filter">Beauty On</string>
+    <string name="alivc_recorder_setting_open_skin_filter">Beauty Off</string>
+    <string name="alivc_recorder_setting_close_face_detection">Face detection on</string>
+    <string name="alivc_recorder_setting_open_face_detection">Face detection off</string>
+    <string name="alivc_recorder_setting_duet_original">Video sound</string>
+    <string name="alivc_recorder_setting_duet_recorded">Record sound</string>
+    <string name="alivc_recorder_setting_duet_mute">Video sound</string>
+    <string name="alivc_recorder_setting_duet_mix">Sound mixing</string>
+
+    <string name="alivc_recorder_setting_duet_background">On-beat background</string>
+    <string name="alivc_recorder_setting_duet_round_corner">Video border</string>
+    <string name="alivc_recorder_setting_duet_round_corner_blue">Border</string>
+    <string name="alivc_recorder_setting_duet_background_no">Do not set</string>
+    <string name="alivc_recorder_setting_duet_background_red">Red</string>
+    <string name="alivc_recorder_setting_duet_background_image">Picture</string>
+
+    <string name="alivc_recorder_setting_duet_bg_scale_mode">Background image mode</string>
+    <string name="alivc_recorder_setting_duet_bg_scale_mode_fill">Fill</string>
+    <string name="alivc_recorder_setting_duet_bg_scale_mode_crop">Crop</string>
+    <string name="alivc_recorder_setting_duet_bg_scale_mode_stretch">Stretch</string>
+    <!--录制界面控制view-->
+    <string name="alivc_recorder_control_music">Music</string>
+    <string name="alivc_recorder_control_rate_slow">Slow</string>
+    <string name="alivc_recorder_control_rate_standard">Standard</string>
+    <string name="alivc_recorder_control_rate_fast">Fast</string>
+    <string name="alivc_recorder_control_rate_very_fast">Very Fast</string>
+    <string name="alivc_recorder_control_delete">Delete</string>
+    <string name="alivc_recorder_control_filter">Effect</string>
+    <string name="alivc_recorder_control_click">Click to Shoot</string>
+    <string name="alivc_recorder_control_press">Hold to Shoot</string>
+    <string name="alivc_recorder_control_long_press">Hold to Shoot</string>
+
+    <!--录制界面-->
+    <string name="alivc_recorder_menu_action_settings">Settings</string>
+    <string name="alivc_recorder_record_compose">Exporting...</string>
+    <string name="alivc_recorder_record_filter_null">Original</string>
+    <string name="alivc_recorder_record_dialog_permission_remind">Need to access "album "," camera "and" external memory ", otherwise it will affect the use of most functions, please go to "Application information -> Permissions" set!</string>
+    <string name="aliyun_rate_very_slow">Very Slow</string>
+    <string name="alivc_recorder_record_dialog_not_setting">do not set</string>
+    <string name="alivc_recorder_record_create_video">Exporting...</string>
+    <string name="alivc_recorder_record_tip_phone_state_calling">During a call, mute the recording</string>
+    <string name="alivc_recorder_record_aspect_ratio_content">Aspect Ratio</string>
+    <string name="alivc_recorder_record_take_photo">Take Photo</string>
+    <string name="alivc_recorder_record_anim_filter">Motion filter</string>
+    <string name="alivc_recorder_record_camera_permission_tip">Please enable camera permissions</string>
+    <string name="alivc_recorder_record_start_recorder">Start Recording</string>
+    <string name="alivc_recorder_dialog_filter_none">inefficacy</string>
+    <string name="alivc_recorder_play_tip_video_save">The currently shot video has been saved to the album</string>
+    <string name="aliyun_beauty_face">Beauty</string>
+    <string name="aliyun_face_sticker">Stickers</string>
+    <string name="alivc_recorder_setting_video_style">Shooting method</string>
+    <string name="alivc_recorder_setting_rendering_mode">Advanced beauty</string>
+    <string name="alivc_recorder_setting_watermark">Add watermark</string>
+    <string name="alivc_recorder_setting_general_text">Normal</string>
+    <string name="alivc_recorder_setting_mix_text">Duet</string>
+    <string name="alivc_mix_record_continue">The video is too short. </string>
+    <string name="alivc_progress_content_text">Resource copy....</string>
+    <string name="aliyun_start_mix_record">Select co-video</string>
+
+    <!--错误提示-->
+    <string name="alivc_record_error_tip_play_video_error">This video is error</string>
+    <string name="alivc_record_not_supported_audio">Audio format is not supported</string>
+    <string name="alivc_record_video_crop_failed">Cropping failure</string>
+    <string name="alivc_record_request_permission_content_text"><![CDATA[Need to access "album "," camera "and" external memory ", otherwise it will affect the use of most functions, please go to "Application information -> Permissions" set!]]></string>
+    <string name="alivc_record_request_permission_positive_btn_text">Go to set</string>
+    <string name="alivc_record_request_permission_negative_btn_text">Do not set</string>
+    <string name="alivc_record_request_no_permission_content_text">no permission</string>
+    <string name="alivc_record_mix_compose_failure">Exporting failed</string>
+    <string name="ugsv_mixrecorder_panel_effect_none">Original</string>
+    <string name="ugsv_mix_recorder_control_props">Stickers</string>
+    <string name="ugsv_mix_recorder_control_beauty">Beauty</string>
+    <string name="ugsv_mix_recorder_control_delete">Delete</string>
+    <string name="ugsv_mix_recorder_control_filter">Filters</string>
+    <string name="ugsv_mix_recorder_control_effect">Effects</string>
+    <string name="ugsv_mix_recorder_control_layout">Layout</string>
+    <string name="ugsv_mix_recorder_toast_flash_disable">The front-facing camera has no flash</string>
+    <!--end-->
+
+</resources>

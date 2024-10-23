@@ -1,0 +1,60 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+
+    repositories {
+        maven { 
+            allowInsecureProtocol = true
+            url "http://maven.aliyun.com/nexus/content/repositories/jcenter" 
+        }
+        maven { 
+            allowInsecureProtocol = true
+            url "http://maven.aliyun.com/nexus/content/repositories/google" 
+        }
+        maven { 
+            allowInsecureProtocol = true
+            url "http://maven.aliyun.com/nexus/content/repositories/releases" 
+        }
+
+        maven { url 'https://repo1.maven.org/maven2/' }
+    }
+    apply from: '../AndroidThirdParty/config.gradle'
+	apply from: './sdk_type_config.gradle'
+    dependencies {
+        classpath externalAndroidBuildGradlePlugin
+        classpath externalAndroidKotlinPlugin
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10'
+        classpath externalFatAarPlugin
+
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        maven { 
+            allowInsecureProtocol = true
+            url "http://maven.aliyun.com/nexus/content/repositories/jcenter" 
+        }
+        maven { 
+            allowInsecureProtocol = true
+            url "http://maven.aliyun.com/nexus/content/repositories/google" 
+        }
+        maven { 
+            allowInsecureProtocol = true
+            url "http://maven.aliyun.com/nexus/content/repositories/releases" 
+        }
+        maven { url 'https://repo1.maven.org/maven2/' }
+        maven { 
+            allowInsecureProtocol = true
+            url 'http://4thline.org/m2' 
+        }
+        maven { url 'https://repo1.maven.org/maven2/' }
+        flatDir { dirs 'src/main/libs' }
+    }
+
+    buildDir = new File(rootDir, "gradle-build/${path.replaceAll(':', '/')}")
+
+}
+

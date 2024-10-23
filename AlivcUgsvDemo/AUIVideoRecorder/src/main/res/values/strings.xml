@@ -1,0 +1,41 @@
+<resources>
+    <!-- 侧边栏 -->
+    <string name="ugsv_recorder_control_music">Music</string>
+    <string name="ugsv_recorder_control_filter">Filters</string>
+    <string name="ugsv_recorder_control_ratio">Aspect Ratio</string>
+    <string name="ugsv_recorder_control_effect">Effects</string>
+    <string name="ugsv_recorder_control_photo">Take Photo</string>
+
+    <!-- 变速栏 -->
+    <string name="ugsv_recorder_control_slowest">Very Slow</string>
+    <string name="ugsv_recorder_control_rate_slow">Slow</string>
+    <string name="ugsv_recorder_control_rate_standard">Standard</string>
+    <string name="ugsv_recorder_control_rate_fast">Fast</string>
+    <string name="ugsv_recorder_control_rate_fastest">Very Fast</string>
+
+    <!-- 底部栏 -->
+    <string name="ugsv_recorder_control_beauty">Beauty</string>
+    <string name="ugsv_recorder_control_props">Stickers</string>
+    <string name="ugsv_recorder_control_delete">Delete</string>
+    <string name="ugsv_recorder_record_mode_click">Click to Shoot</string>
+    <string name="ugsv_recorder_record_mode_press">Hold to Shoot</string>
+
+    <!-- 浮层面板 -->
+    <string name="ugsv_recorder_panel_effect_none">Original</string>
+
+    <!-- Toast文案 -->
+    <string name="ugsv_recorder_toast_flash_disable">The front-facing camera has no flash</string>
+    <string name="ugsv_recorder_toast_disable_after_recording">Cannot be modified during shooting</string>
+    <string name="ugsv_recorder_toast_photo_saved">Photo saved.</string>
+    <string name="ugsv_recorder_toast_photo_failed">Photo failed.</string>
+    <string name="ugsv_recorder_finish_fail">Synthesis failure</string>
+    <string name="ugsv_recorder_toast_phone_state_calling">During a call, mute the recording</string>
+
+    <!-- Dialog文案 -->
+    <string name="ugsv_recorder_permission_remind">Need to access "album "," camera "and" external memory ", otherwise it will affect the use of most functions, please go to "Application information -> Permissions" set!</string>
+    <string name="ugsv_recorder_permission_not_set">Do not set</string>
+    <string name="alivc_record_request_permission_positive_btn_text">Go to set</string>
+    <string name="ugsv_recorder_record_create_video">Exporting...</string>
+    <string name="ugsv_recorder_resource_loading">Resource loading</string>
+
+</resources>

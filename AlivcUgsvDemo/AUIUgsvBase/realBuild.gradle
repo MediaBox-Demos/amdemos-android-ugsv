@@ -1,0 +1,38 @@
+apply plugin: 'com.android.library'
+apply from: '../script_config.gradle'
+apply from: '../common.gradle'
+android {
+    compileSdkVersion androidCompileSdkVersion
+    buildToolsVersion androidBuildToolsVersion
+
+    defaultConfig {
+        minSdkVersion androidMinSdkVersion
+        targetSdkVersion androidTargetSdkVersion
+        consumerProguardFiles 'lib-proguard-rules.pro'
+
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar','*.aar'], dir: 'libs')
+    implementation externalAndroidXAppcompat
+    implementation externalAndroidXRecyclerView
+    implementation externalAndroidXConstraintlayout
+    implementation project(':AliyunVideoCommon')
+    implementation project(':AUIMedia')
+    implementation externalAlivcConan
+    implementation externalGSON
+    implementation externalAlivcCore
+    implementation externalAlivcFFmpeg
+
+    if (buildProductType == SVIDEO_PRO || buildProductType == ALL||buildProductType == LITTLEVIDEO){
+        api project.ext.ugc_sdk
+    }else if (buildProductType == SVIDEO_STANDARD){
+        api project.ext.ugc_sdk
+    }else if (buildProductType == SVIDEO_BASE){
+        api project.ext.ugc_sdk
+    }
+}

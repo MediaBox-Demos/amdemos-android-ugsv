@@ -1,0 +1,5 @@
+project.ext {
+    ugc_sdk = externalSvideopro
+    //
+    //ugc_sdk = ''
+}
